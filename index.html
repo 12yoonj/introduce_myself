@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 기입 필수내용
+1. 관심 직무 또는 앞으로의 목표 (웹 프론트엔드 개발자 / 인공지능 서비스 기획자 등)
+2. 관심 분야 또는 기술 (React / Node 등)
+3. AI 트랙에서 가장 기대되는 점
+4. 동료 레이서에게 하고 싶은 말
+5. 취미, 특기, 좋아하는 음료, 최근에 본 영화 또는 책 등 나를 표현할 수 있는 정보
+ -->
+
+<!-- <a href="https://www.flaticon.com/free-icons/languages" title="languages icons">Languages icons created by Freepik - Flaticon</a>  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 82px)" href="mystyle.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Muted's Homepage</title>
+</head>
+
+<body>
+    <script>
+        let target = document.querySelector('body');
+        // document.querySelectorAll('a')
+
+        function js_practice(self) {
+            let as = document.querySelectorAll('p');
+
+            if (self.value === 'night') {
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = 'day';
+
+                for (let i = 0; i < as.length; i = i + 1) {
+                    as[i].style.color = 'white';
+                }
+
+            } else {
+                target.style.backgroundColor = 'white';
+                target.style.color = 'black';
+                self.value = 'night';
+                for (let i = 0; i < as.length; i = i + 1) {
+                    as[i].style.color = 'black';
+                }
+            }
+
+        }
+
+    </script>
+
+
+
+    <div class="container">
+        <header id="intro">
+            <div id="title">
+                <img src="https://cdn.pixabay.com/photo/2016/11/17/00/05/roses-on-wooden-wall-1830385_960_720.jpg"
+                    alt="#">
+                <h1>
+                    <a href="index.html">Muted Dawn 🌿</a>
+                </h1>
+            </div>
+        </header>
+
+
+        <main role="main" id="main">
+            <div class="screen">
+                <span class="screen__text">스크린이 너무 작아요!</span>
+            </div>
+            <div class="nav">
+                <div class="one">Who am I?</div>
+            </div>
+            <div class='all_img'>
+                <img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg" alt="main_img">
+            </div>
+
+            <div class="me">
+                <p>안녕하세요! 제 홈페이지에 방문해주셔서 감사합니다! <br> 제 이름은 '정윤지'이고, 제 닉네임은 'Muted(뮤티드)'입니다. <br> 닉네임은 제 퍼스널컬러가 muted
+                    tone에 속한다는 점에서 비롯되었습니다. <br> 제 성격도 닉네임처럼 조용한 성격이라 집에서 책 읽고 영화 보거나 산책하는 것을 좋아합니다 :) <br><a
+                        href="https://movie.naver.com/movie/bi/mi/basic.naver?code=142632">'미스 슬로운'</a>이라는 영화를 가장 좋아하는데,
+                    영화의 주인공처럼 통찰력 있는 사람이 되는 것이 목표입니다. <br> 매사에 '그러려니'하는 성격이지만, 새로운 걸 배우는 건 언제나 즐거운 일이라고 생각합니다!
+                    <br> 아메리카노, 그린티(라떼), 민트초코, 자몽 등을 좋아하여 즐겨 마십니다~
+                </p>
+            </div>
+
+            <div class="nav">
+                <div class="two">관심 분야</div>
+            </div>
+            <div class="interest">
+                <div class="int_img">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                </div>
+                <div class="int_content">
+                    <p>Data Analysis</p>
+                    <p>EduTech</p>
+                    <p>Language Service</p>
+                </div>
+            </div>
+
+
+            <div class="nav">
+                <div class="three">AI track</div>
+            </div>
+            <div class="AI">
+                <div id="to_Elice">
+                    <div class='all_img'>
+                        <img src="https://images.unsplash.com/photo-1544561359-01e7ad461250?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            alt="wonderland">
+                    </div>
+                    <p>
+                        AI 트랙을 통해 전반적인 서비스 개발 과정을 경험해볼 수 있게 되어서 너무 기쁩니다! 미래에 취업을 했을 때에도 전체적인 진행 흐름을 알고 시작한다는 점에서 더
+                        좋은
+                        서비스를 기획할 수 있을 것이라 생각됩니다. 그러한 점에서 역시 마지막 팀 프로젝트가 가장 기대됩니다! 혼자 쉬는 건 좋아하지만, 개인적으로 일할 때만큼은 여럿이서
+                        각자
+                        일을 분담하는 것이 더 효율적이라고 생각하여 혼자보다 단체를 추구하는 성향이기 때문에 각자 맡은 바를 다하여 좋은 결과물을 낼 수 있기를 바랍니다!
+                    </p>
+                </div>
+                <div id="to_Racers">
+                    <div class='all_img'>
+                        <img src="https://images.unsplash.com/photo-1575566884706-d605dcdfab17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                            alt="alice_rabbit">
+                    </div>
+                    <p>
+                        AI 트랙을 함께 시작한 동료 레이서분들, 안녕하세요! 관심사와 실력 등 많은 것들이 각자 다르고 다양하겠지만 이렇게 하나의 목표를 위해 함께 달리는 사람들이 있다는 것이
+                        큰 힘이 되네요! 달리는 길이 조금 지치더라도 우리 서로 으쌰으쌰 하면서 완주하도록 해요! 언제나 당신을 응원하겠습니다 :)
+                    </p>
+                </div>
+            </div>
+
+            <input class="button" type="button" value="night" onclick="
+                js_practice(this);">
+        </main>
+
+</body>
+
+</html>
